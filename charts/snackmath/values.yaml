@@ -1,0 +1,25 @@
+replicaCount: 2
+
+image:
+  repository: jcroyoaun/snackmath
+  tag: icon
+  pullPolicy: Always
+
+service:
+  port: 80
+  targetPort: 7500
+
+virtualService:
+  enabled: true
+  hosts:
+    - snackmath.cc
+  gateways:
+    - istio-ingress/main-gateway
+
+resources:
+  requests:
+    cpu: 10m
+    memory: 16Mi
+  limits:
+    cpu: 100m
+    memory: 64Mi

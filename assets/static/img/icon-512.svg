@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="108" fill="#09090b"/>
+  <!-- Bag body -->
+  <path d="M148 192 L122 426 C120 440 132 452 148 452 L364 452 C380 452 392 440 390 426 L364 192Z" fill="#10b981" opacity="0.9"/>
+  <!-- Bag crinkle top -->
+  <path d="M148 192 L170 154 L200 192 L232 148 L264 192 L296 148 L328 192 L358 154 L364 192Z" fill="#10b981"/>
+  <!-- Bag shine -->
+  <path d="M164 212 L142 414 C140 426 150 434 160 434 L212 434 L238 212Z" fill="#ffffff" opacity="0.12"/>
+  <!-- Kcal text -->
+  <text x="256" y="355" text-anchor="middle" font-family="system-ui,sans-serif" font-weight="700" font-size="75" fill="#09090b">kcal</text>
+</svg>
