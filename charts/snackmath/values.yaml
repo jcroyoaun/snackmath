@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: jcroyoaun/snackmath
-  tag: icon
+  tag: footer
   pullPolicy: Always
 
 service:
