@@ -2,7 +2,9 @@
 
 Compare calorie density between two foods. Normalize any two items to 100g so you can see which one is the better deal.
 
-PWA -- installable on your phone, works offline.
+PWA -- installable on your phone, works offline (or should). 
+
+Deployed to snackmath.cc
 
 ## Dev
 
